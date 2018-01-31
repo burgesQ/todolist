@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="deleteTask">Delete task</string>
+
+    <string name="editTask">Edit Task</string>
+    <string name="editTitle">Edit Title</string>
+    <string name="editDetails">Edit Details</string>
+    <string name="editTasker">Edit Tasker</string>
+    <string name="editColor">Edit Color</string>
+    <string name="editTime">Edit Time</string>
+    <string name="editDeadLine">Edit DeadLine</string>
+
+    <string name="Category">Category</string>
+    <string name="share">Share Tasks</string>
+    <string name="Sync">Sync Google Calendar</string>
+</resources>

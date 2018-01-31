@@ -1,0 +1,37 @@
+______________________TECHNICAL_DOCUMENTATION_____________________________________
+
+ - The minimmum Android SDK API required is the 19th.
+ - This application is cross-platform to all Android devices.
+ - The application use a SQLite databse.
+ - The application is develloped in Java w/ android studio sdk 25.2.
+ - Their is 2 activity in this app (a category avtivity and a tasks activuty)
+ - The application use Recycler view, soo thier is 2 Manager (TaskManager, CategoryManager)
+ - For the SQLite database their is 2 Contract (TaskContract, UserContract)
+ - For the SQLite database their is 2 DbHelper (TaskDbHelper, CategoryDbHelper)
+ - For the SQLite database their is 2 overllaping (TaskDb, CategoryDb).
+ - The task and category have a persistente between the launch.
+ - The 2 activitys communique with intent (putEXtra, getExtra).
+ - The database are close in the onDestroy of each activity.
+ - The application is delevred with unit test.
+ - Exec ./gradelw test to run them.
+ - Exec ./gradelw assemblRelease too build a signed apk.
+ - Exec ./gradelw assembleDebug too build a debug apk.
+
+
+________________________USER_DOCUMENTATION________________________________________
+
+ - When the app launch, the SQL database load all Category with all sub-tasks.
+ - Hit the fab buttons (bottom right) too creat a new category.
+ - You juste haveto set the name and press the ok button.
+ - Long press a category card too see options on the category !
+ - You can rename the cateogry (2 category can't havethe same name !) or delete it !
+ - Beware, deleting a category delete all her sub-tasks.
+ - Click a category card to see all the sub-tasks of the category !
+ - Hit the fab buttons (bottom right) too creat a new task.
+ - Set the deadline and the title of the task and hit ok.
+ - Long press a tile to develop options.
+ - You can share your tasks with other application !
+ - Press the check box of a card to set a task to done.
+ - You can also edit the time, deadline, title, annotations ... and obviously delete a task.
+ - Click a tile too expand it.
+ - Press the back arrow (top left) too go back to the Category Screen.

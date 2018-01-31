@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuTask"
+        android:title="@string/editTask" />
+
+    <item
+        android:id="@+id/menuTitle"
+        android:title="@string/editTitle" />
+
+    <item
+        android:id="@+id/menuDetails"
+        android:title="@string/editDetails" />
+
+    <item
+        android:id="@+id/menuTasker"
+        android:title="@string/editTasker" />
+
+    <item
+        android:id="@+id/menuDeadLine"
+        android:title="@string/editDeadLine" />
+
+    <item
+        android:id="@+id/menuColor"
+        android:title="@string/editColor" />
+
+    <item
+        android:id="@+id/menuTime"
+        android:title="@string/editTime" />
+
+    <item
+        android:id="@+id/menuDelete"
+        android:title="@string/deleteTask" />
+
+    <item
+    android:id="@+id/menuShare"
+    android:title="@string/share" />
+
+</menu>
